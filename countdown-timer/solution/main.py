@@ -1,8 +1,8 @@
 from time import sleep
 
-n = 10
+count_down_number = 10
 
-while n >= 0:
-    print(n)
+while count_down_number >= 0:
+    print(count_down_number)
     sleep(1)
-    n -= 1
+    count_down_number -= 1
