@@ -1,11 +1,12 @@
+# Funktion til at tjekke for palindrom
 def is_palindrome(s):
     return s == s[::-1]
 
 
-# Input string
+# Få input fra brugeren
 string = input("Indtast en tekst: ")
 
-# Check palindrome
+# Check palindrom
 if is_palindrome(string):
     print(f"{string} er et palindrom.")
 else:
